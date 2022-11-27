@@ -1,0 +1,20 @@
+{
+  "name": "patamancy",
+  "version": "0.0.1",
+  "description": "Displays a random extract from Alfred Jarry's Faustroll",
+  "license": "MIT",
+  "author": "Henri Bourcereau",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmai/patamancy.git"
+  },
+  "main": "./index.js",
+  "bin": {
+    "patamancy": "./bin/patamancy.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "opts": "^2.0.2",
+    "sbd": "^1.0.19"
+  }
+}
